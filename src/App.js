@@ -10,13 +10,6 @@ function App() {
     <div className="App">
       <HashRouter basename={process.env.PUBLIC_URL}>
         <NavBar/>
-        {/* <Switch>
-          <Route path="/about" component={AboutPage} />
-          <Route path="/projects" component={ProjectPage} />
-          <Route path="/contributions" component={ContributionsPage} />
-          <Route path="/more" component={MorePage} />
-          <Route path="/" component={HomePage} />
-        </Switch> */}
         <Routes/>
       </HashRouter>
     </div>
