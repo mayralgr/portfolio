@@ -3,6 +3,26 @@
     padding-left: 1em;
 }
 
+.Active {
+    float: right;
+}
+
 .Active:focus, .Active:hover{
     color: white !important;
+}
+
+.logo {
+    width: 1.25rem;
+    margin-right: .5rem;
+    height: 1.5rem;
+}
+
+.logos {
+    display: flex;
+}
+
+.navPersonalization {
+    flex-grow: unset;
+    width: 80%;
+    margin-right: auto;
 }

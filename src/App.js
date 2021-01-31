@@ -1,5 +1,5 @@
 import './App.css';
-import { Route, Switch, HashRouter} from "react-router-dom";
+import { HashRouter} from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 // Components
 import NavBar from "./components/shared/NavBar";

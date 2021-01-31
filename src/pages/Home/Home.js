@@ -5,8 +5,12 @@ const HomePage = () => {
 
     return (
         <>
+            <h1>
+                Mayra Lucero Garcia Ramirez
+            </h1>
+            Developer
+            
 
-<h1>home</h1>
         </>
     )
 }
