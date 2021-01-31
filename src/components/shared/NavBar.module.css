@@ -1,0 +1,8 @@
+.NavColor {
+    background-color: rgb(147,112,219);
+    padding-left: 1em;
+}
+
+.Active:focus, .Active:hover{
+    color: white !important;
+}
