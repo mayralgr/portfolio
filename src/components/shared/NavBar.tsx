@@ -11,16 +11,20 @@ import Github from "../../assets/img/github.svg";
 import Mail from '../../assets/img/mail.svg';
 import Linkedin from '../../assets/img/linkedin.svg';
 
-export default function NavBar() {
+type Props = {
+    abbreviation: string,
+}
+
+const NavBar = (props: Props) => {
     return (
         <>
         <Navbar className={styles.NavColor}>
-            <Navbar.Brand as={Link} to="/">MLGR</Navbar.Brand>
+            <Navbar.Brand as={Link} to="/">{props.abbreviation}</Navbar.Brand>
             <Nav className={styles.navPersonalization}>
-                <Nav.Link as={NavLink} className={styles.Active} to="/about">About me</Nav.Link>
-                <Nav.Link as={NavLink} className={styles.Active} to="/projects">Learning projects</Nav.Link>
-                <Nav.Link as={NavLink} className={styles.Active} to="/contributions">Contributions</Nav.Link>
-                <Nav.Link as={NavLink} className={styles.Active} to="/more">More</Nav.Link>
+                <Nav.Link as={NavLink} className={styles.Active} to="/about"replace>About me</Nav.Link>
+                <Nav.Link as={NavLink} className={styles.Active} to="/projects"replace>Learning projects</Nav.Link>
+                <Nav.Link as={NavLink} className={styles.Active} to="/contributions"replace>Contributions</Nav.Link>
+                <Nav.Link as={NavLink} className={styles.Active} to="/more"replace>More</Nav.Link>
                 
             </Nav>
             <div className={styles.logos}>
@@ -44,3 +48,5 @@ export default function NavBar() {
         </>
     );
 }
+
+export default NavBar;

@@ -23,7 +23,7 @@ const HomePage = () => {
                     I lived one year in France (I speak french too) 🇫🇷 <br/>
                     I love movies, music and sports.  <br/>
                     I play football and basketball and I also play a little videogames ⚽️🏀🎮 <br/>
-                    <h4> But mostly love programming </h4>
+                    <strong> But mostly love programming </strong>
                     <br/>
                     I am always doing things, I love to learn about new techonlogies and start using them.
                     <br/>
@@ -35,7 +35,7 @@ const HomePage = () => {
                     <br/>
                     Right now I am working for Nagarro (see info in linkedIn)
                     <br/>
-                    <h4>Don't hesitate to contact me as this page is still under construction but the links in the menu work 😊</h4>
+                    <strong>Don't hesitate to contact me as this page is still under construction but the links in the menu work 😊</strong>
                 </p>
             
             </div>

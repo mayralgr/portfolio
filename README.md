@@ -2,6 +2,13 @@
 
 https://mayralgr.github.io/portfolio/
 
+# Migration to typescript
+
+Migration was done following [this](https://www.sitepoint.com/how-to-migrate-a-react-app-to-typescript/) steps
+
+# Deployment
+
+[TO GH Pages](https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f)
 
 # Getting Started with Create React App
 
